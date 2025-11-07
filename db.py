@@ -5,7 +5,7 @@ from pathlib import Path
 DB_PATH = Path("/Users/zurajashi/Desktop/BudgetApp")
 
 
-def get_con()
+def get_con():
 
     # Make sure folder exists
     DB_PATH.parent.mkdir(exist_ok=True)
